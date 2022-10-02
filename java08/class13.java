@@ -1,6 +1,6 @@
 class CCircle {
     double pi = 3.14;
-    float radius = 10 * 0.5f;
+    float radius = 10;
 
     double area(double r) {
         return radius * radius * pi;
