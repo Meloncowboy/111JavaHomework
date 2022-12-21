@@ -12,8 +12,9 @@ public class Class07 {
 			
 			String str;
 			int c = 0;
-			while(str = bfr.readLine() != null) {
-				System.out.println(bfr.readLine());
+			while((str = bfr.readLine()) != null && c != 2) {
+				System.out.println(str);
+				c++;
 			}
 		    fr.close();
 		} catch (Exception e) {
